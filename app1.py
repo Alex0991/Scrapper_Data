@@ -1,8 +1,11 @@
 import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
+from bs4 import BeautifulSoup
+import requests
 
 
-st.markdown("<h1 style='text-align: center; color: black;'>MY DATA APP</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: left; color: blue;'>SCRAPPER DATA</h1>", unsafe_allow_html=True)
 
 st.markdown("""
 This app allows you to download scraped data on motocycles from expat-dakar 
